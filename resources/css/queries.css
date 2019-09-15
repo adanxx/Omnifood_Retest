@@ -183,6 +183,11 @@
   padding-left: 126px;
 }
 
+.plan-box {
+  width: 91%;
+  font-size: 151%;
+}
+
 cite img {
   height: 57px;
 }
