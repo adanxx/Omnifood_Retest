@@ -1,0 +1,197 @@
+
+
+/*Will apply to big tablets from 1024px to 120px */
+@media only screen and (max-width: 1200px){
+  .hero-text-box {
+    width: 100%;
+  }
+
+  h1{
+    font-size: 200%;
+  }
+
+  .logo{
+    height: 100px;
+  }
+  
+  .main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 70px;
+    font-size: 70%;
+    font-weight: 400;
+  }
+
+  .row{
+    padding: 0 5%;
+  }
+  .big-row{
+    padding: 0 5%;
+  }
+  
+}
+
+/*Will apply to small tablets from 767px to 1024px */
+@media only screen and (max-width: 1024px){
+
+  body{font-size: 18px;}
+  section{padding: 60px 0;}
+
+  .long-copy{
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 380;
+  }
+
+  .icon-big {
+    font-size: 359%;
+    padding-bottom: 10px;
+  }
+
+  .box p {
+    font-size: 80%;
+    
+  }
+  
+  .steps-box-2 {
+    margin-top: 70px;
+    padding-left: 1%;
+    font-size: 90%;
+  }
+  
+  .btn-app img {
+    height: 45px;  
+  }
+
+  .works-steps {
+    margin-bottom: 40px;
+  }
+
+  .works-steps:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  .city-feature {
+    font-size: 73%;
+  }
+
+  .cities h3{
+    font-size: 90%;
+  }
+
+ blockquote{
+   font-size: 16px;
+ }
+
+ .plan-box{
+  width: 100%;
+ }
+
+ .plan-price{
+  font-size: 194%;
+ }
+ .plan-price-meal {
+  font-size: 86%;
+ }
+
+ .plan-box div ul{
+  font-size: 75%;
+ }
+
+ .btn-full{
+  font-size: 70%;
+ }
+
+ .btn-ghost{
+  font-size: 75%;
+ }
+
+  .footer-nav{
+    font-size: 74%;
+  }
+
+}
+
+/*Will apply to small Phones to small tablets: from 460 to 767px */
+@media only screen and (max-width: 767px){
+
+  body{
+    font-size: 14px;
+  }
+
+  section{
+    padding: 30px 0;
+  }
+
+  .big-row,
+  .row
+  .hero-text-box {
+    padding: 0 4%;
+  }
+
+  .col{
+    width: 100%;
+  }
+
+  .main-nav{
+    display: none;
+  }
+
+  h1{
+    font-size: 180%;
+  }
+  h2{
+    font-size: 150%;
+  }
+
+  .steps-box:first-child {
+    text-align: right;
+    padding-right: 32%;
+    margin-top: 30px;
+  }
+
+  .app-screen {
+    width: 51%;
+  }
+
+  .works-steps {
+    margin-bottom: 30px;
+ }
+
+  .works-steps div {
+  width: 37px;
+  height: 35px;
+  text-align: center;
+  font-size: 124%;
+  padding-top: 7px;
+}
+
+ .works-steps p{
+   font-size: 120%;
+ }
+
+ .steps-box-2 a:first-of-type{
+  margin-left: 59px;
+ }
+
+ .cities h3{
+  font-size: 132%;
+ }
+
+ .city-feature {
+  font-size: 110%;
+  padding-left: 126px;
+}
+
+cite img {
+  height: 57px;
+}
+
+
+
+
+}
+
+/* Small Phones from 0 to 480px*/
+@media only screen and (max-width: 480px){}
+
